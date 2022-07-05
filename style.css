@@ -120,7 +120,7 @@ p {
 }
 
 .wrapper {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -162,9 +162,6 @@ p {
 
 /* blogs  */
 
-.blogs{
-  margin-left:225px;
-}
 
 .blogs.wrapper{
   width: 70%;
@@ -175,6 +172,8 @@ p {
   display: flex;
   align-items: center;
   padding: 50px 0;
+  margin-left:130px;
+
 }
 
 .blogs .content .left {
