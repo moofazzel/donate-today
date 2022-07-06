@@ -10,7 +10,7 @@ body {
 p {
   font-size: 1.1em;
   line-height: 20px;
-  margin-top: 20px;
+  margin-top: 22px;
 }
 
 .sub-title {
@@ -82,7 +82,7 @@ p {
   color: #515151;
   font-weight: 800;
   margin-right: 20px;
-  background-color: #fafafa;
+  background-color: #fdfcf2ea;
   padding: 25px 12px;
   border-radius: 6px;
 }
@@ -102,6 +102,10 @@ p {
   border: none;
   padding: 10px 0;
   text-align: center;
+}
+
+.donate-ammount input:focus{
+  outline: none;
 }
 
 .donate-ammount hr {
@@ -162,8 +166,7 @@ p {
 
 /* blogs  */
 
-
-.blogs{
+.blogs {
   width: 1080px;
   margin: auto;
 }
@@ -173,56 +176,54 @@ p {
   align-items: center;
   padding: 50px 0;
   /* margin-left:105px; */
-
 }
 
 .blogs .content .left {
-  width:40%;
+  width: 40%;
   margin-right: 70px;
 }
 
 .blogs .content img {
-  width:100%;
+  width: 100%;
   max-width: 450px;
   border-radius: 6px;
 }
 
-.blogs .btn{
+.blogs .btn {
   color: black;
   margin-top: 20px;
 }
 
 .blogs .content-2 .left {
-  width:40%;
+  width: 40%;
   margin-right: 70px;
 }
 
 .blogs .content-2 .left img {
-  width:100%;
+  width: 100%;
   max-width: 450px;
   border-radius: 6px;
 }
 
 .blogs .content-2 .right {
-  width:40%;
+  width: 40%;
 }
-
 
 /* Update  */
 
-.update{
+.update {
   width: 50rem;
   margin: auto;
   text-align: center;
   padding: 70px 0;
 }
 
-.update p{
+.update p {
   margin: 25px 0;
 }
 
-.subscribe{
-  background-color: #FFF4D6;
+.subscribe {
+  background-color: #fff4d6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,37 +231,79 @@ p {
   margin: 30px 0;
 }
 
-.subscribe input{
+.subscribe input {
   border: none;
   padding: 10px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   border-radius: 5px 0 0 5px;
   width: 30%;
 }
 
-.subscribe .sub-btn{
+.subscribe .reg-btn {
+  color: rgb(244, 216, 216);
   border: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
   padding: 10px 20px;
-  background-color: #FF5959;
+  background-color: #ff5959;
   border-radius: 0 5px 5px 0;
 }
 
-.footer{
+.footer {
   text-align: center;
-  background-color: #0B0D17;
+  background-color: #0b0d17;
   padding: 30px 0;
-
 }
 
-.footer h3{
-  color: #FF5959;
+.footer h3 {
+  color: #ff5959;
   font-size: 1.8rem;
   font-family: cursive;
   font-style: italic;
 }
 
-.footer p{
+.footer p {
   color: #9a9999;
   font-size: 14px;
+}
+
+/* Help  */
+
+.help {
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.help .text {
+  width: 305px;
+  margin-right: 15px;
+}
+
+.help .text h3 {
+  color: #efc940;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.help .text h2 {
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.help .help-content img {
+  width: 100%;
+  max-width: 140px;
+  margin-bottom: 25px;
+}
+
+.help .help-content {
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 10px 35px rgba(30,30,30,0.07);
+  padding: 20px 10px;
 }
