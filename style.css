@@ -163,8 +163,8 @@ p {
 /* blogs  */
 
 
-.blogs.wrapper{
-  width: 70%;
+.blogs{
+  width: 1080px;
   margin: auto;
 }
 
@@ -172,7 +172,7 @@ p {
   display: flex;
   align-items: center;
   padding: 50px 0;
-  margin-left:130px;
+  /* margin-left:105px; */
 
 }
 
